@@ -46,16 +46,28 @@ Git Commands for specific operation :
 
 - Post this we created a new repo on github as devOps_assignment_bits.
 
+
+![git init](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/ebcb2b7a-b5e2-4d8d-a590-19b420c7320d)
+
 2. Link the remote repo to github
    
 - git remote add <remote_name> <remote_link>: 
 - Post craetion of ou repos , we linked our remote repository to our github repository.
+
+
+![git add remote](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/fc1c461f-ed32-4b97-b61a-5362cee28fe0)
+
 
 3. Add two directories and some raw code files to the repository
 - git add: This command is used to start tracking files, and to stage changes.
 - git commit: This command is used to commit the staged changes.
 - git status: This command is used to view which files are untracked, tracked, and staged for commit.
 - We create two directories directory1 and directory2, and then add two files directory1/firstfile.py and directory2/secondfile.py with raw codes in python.
+
+
+![git commit](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/ba47124c-fe35-4e39-afb7-375d32506343)
+
+![git commit second](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/e0aeb498-f11c-40d5-bfb7-75c2f8c3c4de)
 
 
 4. Move code from one directory to the other directory
@@ -65,8 +77,13 @@ Git Commands for specific operation :
 - Once the files got interchanged , we committed the changes and add the message with commit<'your message'> and staged the changes to look for unstaged or staged 
   changes.
 
+![interchange file](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/bdd9f6f4-22cc-4c44-99b9-7811da8ede10)
+
 5. Update one source code file and display the difference
-- git diff: used to display delta for files or commits
+- git diff: used to display delta for files or commits.
+
+
+![git diff](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/8270ceee-7fc2-4f93-9607-7c505a708ca6)
 
 6. Create a branch (feature branch)
 - git branch: used to create a new branch
@@ -74,13 +91,22 @@ Git Commands for specific operation :
 - We create a new branch feature-branch. Normally, we first create a new branch like git branch feature-branch and then switch to it with git checkout feature- 
   branch
 
+![git new branch](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/7f8aa4dc-28ed-495f-9c64-819c079bc374)
+
+  
 7.Merge the changes (master branch)
 - git checkout:This command is used to switch to an egixisting branch
 - git merge : This command is used to merge the changes from specified branch to existing branch.
 
+![git merge](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/a7aa797b-a32f-4573-83a0-bbedee4761d3)
+
 8. Push the changes
 - git push : This comand is used to push the changes all from remote to gihub repository.
 - command can be written as --  git push <remote_name> <branch_name>
+
+
+![git push](https://github.com/NidhiShree123/devOps_assignment_bits/assets/70796956/2c234295-b686-4d49-baca-b82c8cf6953a)
+
 
 ## Advantages of CVCs 
 
