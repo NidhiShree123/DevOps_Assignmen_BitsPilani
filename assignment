@@ -37,4 +37,13 @@ Create the Jenkins pipeline, which is checking out the code and build and compil
 1. Create Repository -
   - ## git init: used to initialise a new git repository within a directory
     
+## Advantages of CVCs 
+ - As each developer has their own copy of code, they can work offline. This is in contrast to having to constantly stay connected to the server, as in the case of centralized source code.
+
+ - Faster and more efficient, because operations can be performed on local machines, and then later pushed / pulled to the version control server, when required.
+
+ - Multiple levels of redundancy, because each developer would have a copy of the code on their system, even if the main server loses its copy, it can easily be recovered.
+
+ - Much better branching support, where each new feature can have its own branch, which can be tested in isolation with each other and then later merged into the main branch once ready.
+
 
