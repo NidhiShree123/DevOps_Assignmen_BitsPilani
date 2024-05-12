@@ -2,6 +2,10 @@
 # Declaration 
 This repo contains the assignment details for the project work of subject - Introduction to DevOps. Every effort is made to indicate this clearly, with due reference to the literature, and acknowledgement of collaborative research and discussions.
 
+I have kept my sample code in different repo - https://github.com/NidhiShree123/assignment.git .
+
+Please have a look and let me kow what we can make improvements in the project . 
+
 # Contents 
 1. Problem Statement
 2. Methodology
@@ -79,7 +83,6 @@ Git Commands for specific operation :
 - command can be written as --  git push <remote_name> <branch_name>
 
 ## Advantages of CVCs 
- - As each developer has their own copy of code, they can work offline. This is in contrast to having to constantly stay connected to the server, as in the case of centralized source code.
 
  - Faster and more efficient, because operations can be performed on local machines, and then later pushed / pulled to the version control server, when required.
 
@@ -89,3 +92,4 @@ Git Commands for specific operation :
 
 
 ## Jenkins Pipeline Script 
+ -  Please refer to repo - https://github.com/NidhiShree123/assignment.git
