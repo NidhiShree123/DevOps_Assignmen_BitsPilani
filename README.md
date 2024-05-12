@@ -33,3 +33,8 @@ And at the end provide the Summary of advantages of moving from Centralized Sour
 Part 2:
 Create the Jenkins pipeline, which is checking out the code and build and compiling it on every commit automatically.
 
+# Steps
+1. Create Repository -
+  - ## git init: used to initialise a new git repository within a directory
+    
+
